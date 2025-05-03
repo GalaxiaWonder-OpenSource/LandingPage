@@ -1,0 +1,80 @@
+
+.desktop-only {
+  display: grid;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.overview-section {
+  background-color: #22396b;
+  padding: 4dvmax 2dvmax;
+  color: white;
+  text-align: center;
+}
+
+.overview-intro {
+  max-width: 700px;
+  margin: 0 auto 3dvmax;
+}
+
+.overview-subtitle {
+  font-size: 1dvmax;
+  opacity: 0.7;
+  margin-bottom: 0.5dvmax;
+}
+
+.overview-title {
+  font-size: 2dvmax;
+  font-weight: 600;
+  margin-bottom: 0.5dvmax;
+}
+
+.overview-label {
+  font-size: 1dvmax;
+  margin-bottom: 1dvmax;
+}
+
+.overview-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1dvmax;
+}
+
+.overview-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 2dvmax 1.5dvmax;
+  border-radius: 8px;
+  color: #000;
+  background-color: #ffc107;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.overview-card img {
+  height: 40px;
+  margin-bottom: 1dvmax;
+}
+
+.overview-icon {
+  font-size: 48px;   /* Cambia a lo que necesites */
+  width: auto;
+  height: auto;
+  color: #000;       /* O usa theme variables si aplicas themes */
+  margin-bottom: 1dvmax;
+}
+
+@media (max-width: 907px) {
+  .desktop-only { display: none; }
+  .mobile-only  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2dvmax;
+    padding: 2dvmax 1.5dvmax;
+  }
+}

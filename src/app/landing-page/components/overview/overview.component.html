@@ -1,0 +1,39 @@
+<section class="overview-section">
+  @if (userType == UserType.CONTRACTOR) {
+    <div class="overview-intro">
+      <p class="overview-subtitle">{{'overviews.contractor.for-who' | translate}}</p>
+      <h2 class="overview-title">{{'overviews.contractor.content' | translate}}</h2>
+      <p class="overview-label">{{'overviews.we-offer' | translate}}</p>
+    </div>
+
+    <div class="overview-grid desktop-only">
+      <div class="overview-card">
+        <mat-icon class="overview-icon">workspaces</mat-icon>
+        <h3>{{'overviews.contractor.features.project-management.title' | translate}}</h3>
+        <p>{{'overviews.contractor.features.project-management.content' | translate}}</p>
+      </div>
+      <div class="overview-card">
+        <mat-icon class="overview-icon">change_circle</mat-icon>
+        <h3>{{'overviews.contractor.features.change-management.title' | translate}}</h3>
+        <p>{{'overviews.contractor.features.change-management.content' | translate}}</p>
+      </div>
+      <div class="overview-card">
+        <mat-icon class="overview-icon">calendar_today</mat-icon>
+        <h3>{{'overviews.contractor.features.schedule.title' | translate}}</h3>
+        <p>{{'overviews.contractor.features.schedule.content' | translate}}</p>
+      </div>
+      <div class="overview-card">
+        <mat-icon class="overview-icon">cloud</mat-icon>
+        <h3>{{'overviews.contractor.features.cloud-storage.title' | translate}}</h3>
+        <p>{{'overviews.contractor.features.cloud-storage.content' | translate}}</p>
+      </div>
+    </div>
+
+    <div class="mobile-only">
+      <app-overview-carousel />
+    </div>
+  }
+
+  <app-user-switcher></app-user-switcher>
+
+</section>

@@ -66,43 +66,47 @@
     }
   },
   "overviews": {
-    "for-who": "Para contratistas y especialistas",
-    "content": "Desbloquee herramientas poderosas para optimizar su trabajo",
-    "we-offer": "Le ofrecemos:",
-    "features": {
-      "contractor": {
+    "contractor": {
+      "for-who": "Para contratistas y especialistas",
+      "content": "Desbloquea herramientas poderosas para optimizar tu trabajo",
+      "features": {
         "project-management": {
           "title": "Gestión de proyectos",
-          "content": "Colaboración en equipo centralizada"
+          "content": "Centraliza la colaboración del equipo"
         },
         "change-management": {
           "title": "Gestión de cambios",
-          "content": "Agilizar las solicitudes de cambio"
+          "content": "Agiliza las solicitudes de modificación"
         },
         "schedule": {
-          "title": "Cronograma",
-          "content": "Reuniones y tareas"
+          "title": "Calendario",
+          "content": "Reuniones y tareas organizadas"
         },
-        "cloud-storage":{
+        "cloud-storage": {
           "title": "Almacenamiento en la nube",
-          "content": "Organiza archivos de forma segura"
+          "content": "Organiza tus archivos de forma segura"
         }
-      },
-      "client": {
+      }
+    },
+    "client": {
+      "for-who": "Para clientes y supervisores",
+      "content": "Accede a herramientas claras para controlar tu proyecto",
+      "features": {
         "request-changes": {
           "title": "Solicitar cambios",
-          "content": "Directamente a su contratista"
+          "content": "Comunícalos directamente a tu contratista"
         },
         "supervision": {
           "title": "Supervisión",
-          "content": "Progresión del proyecto."
+          "content": "Sigue el avance de la obra"
         },
         "verified-partners": {
-          "title": "Socios verificados",
-          "content": "Confía en tu contratista"
+          "title": "Contratistas verificados",
+          "content": "Confía en nuestros socios certificados"
         }
       }
-    }
+    },
+    "we-offer": "Te ofrecemos:"
   },
   "plans": {
     "title": "Escoge tu plan",

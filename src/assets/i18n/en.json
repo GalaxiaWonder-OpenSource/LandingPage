@@ -66,11 +66,10 @@
     }
   },
   "overviews": {
-    "for-who": "For Contractors and Specialists",
-    "content": "Unlock powerful tools to streamline your work",
-    "we-offer": "We offer:",
-    "features": {
-      "contractor": {
+    "contractor": {
+      "for-who": "For Contractors and Specialists",
+      "content": "Unlock powerful tools to streamline your work",
+      "features": {
         "project-management": {
           "title": "Project Management",
           "content": "Centralize team collaboration"
@@ -83,12 +82,16 @@
           "title": "Schedule",
           "content": "Meeting and tasks"
         },
-        "cloud-storage":{
+        "cloud-storage": {
           "title": "Cloud Storage",
           "content": "Organize files safely"
         }
-      },
-      "client": {
+      }
+    },
+    "client": {
+      "for-who": "For Contractors and Specialists",
+      "content": "Unlock powerful tools to streamline your work",
+      "features": {
         "request-changes": {
           "title": "Request Changes",
           "content": "Directly to your contractor"
@@ -102,7 +105,8 @@
           "content": "Trust your contractor"
         }
       }
-    }
+    },
+    "we-offer": "We offer:"
   },
   "plans": {
     "title": "Choose your plan",
