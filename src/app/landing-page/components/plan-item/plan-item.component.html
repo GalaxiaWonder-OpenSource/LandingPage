@@ -1,0 +1,22 @@
+<div class="plan-card">
+  <p class="plan-description">
+    {{ type === 'independent'
+    ? ('plans.independent.content' | translate)
+    : ('plans.small-business.content' | translate) }}
+  </p>
+
+  <img src="../../../../assets/images/plans-logo.png" alt="Logo" class="plan-logo" />
+
+  <h3 class="plan-title">
+    {{ type === 'independent' ? ('plans.independent.title' | translate) : ('plans.small-business.title' | translate) }}
+  </h3>
+
+  <p class="plan-price">
+    {{ type === 'independent' ? ('plans.independent.price' | translate) : ('plans.small-business.price' | translate) }}
+  </p>
+
+  <a mat-raised-button class="black-button" href="https://www.google.com/" target="_blank">
+    {{ 'plans.learn-more' | translate }}
+  </a>
+
+</div>

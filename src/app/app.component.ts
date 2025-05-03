@@ -12,6 +12,7 @@ import {UserType} from './users/model/user-type.enum';
 import {CallToActionComponent} from './landing-page/components/call-to-action/call-to-action.component';
 import {HeroSectionComponent} from './landing-page/components/hero-section/hero-section.component';
 import {AboutUsComponent} from './landing-page/components/about-us/about-us.component';
+import {PlansComponent} from './landing-page/components/plans/plans.component';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +23,8 @@ import {AboutUsComponent} from './landing-page/components/about-us/about-us.comp
     UserSwitcherComponent,
     CallToActionComponent,
     HeroSectionComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    PlansComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
