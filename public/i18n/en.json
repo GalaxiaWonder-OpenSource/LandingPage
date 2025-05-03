@@ -1,3 +1,140 @@
 {
-
+  "topic": {
+    "about-us": "About Us",
+    "overviews": "Overviews",
+    "plans": "Plans",
+    "about-the-product":"About the Product",
+    "testimonials": "Testimonials"
+  },
+  "clients": {
+    "contractor": "Contractor",
+    "client": "Client"
+  },
+  "hero-section": {
+    "slogan": "Planning was never this crystal clear: make it simple, make it right",
+    "forms": {
+      "name": "Enter your name",
+      "id": "Enter your ID",
+      "phone": "Enter your phone",
+      "email": "Enter your email",
+      "company": "Enter your company",
+      "message": "Enter your message",
+      "submit": "Submit"
+    }
+  },
+  "call-to-action": {
+    "promotion": {
+      "contractor": "Join now and simplify your work — try the app for free!"
+    },
+    "action": "Register"
+  },
+  "about-us": {
+    "mission": {
+      "title": "Mission",
+      "content": "Our mission is to optimize the management of technical files in civil works through technological solutions that enhance accuracy, reduce errors, and facilitate seamless collaboration between contractors and specialists."
+    },
+    "vision": {
+      "title": "Vision",
+      "content": "To be the most trusted platform for small businesses and independent contractors, reaching 3% of the market in Lima in three years and leading the digitalization of construction processes in the country."
+    },
+    "values": {
+      "title": "Values",
+      "clarity": {
+        "title": "Clarity",
+        "content": "We promote transparent and well-structured processes that allows for unambiguous technical planning."
+      },
+      "efficiency": {
+        "title": "Efficiency",
+        "content": "We optimize time and resources through technological tools that simplify complex tasks."
+      },
+      "confidence": {
+        "title": "Confidence",
+        "content": "We build strong relationships with our users by offering reliable solutions that minimize errors and improve decision-making."
+      }
+    }
+  },
+  "overviews": {
+    "for-who": "For Contractors and Specialists",
+    "content": "Unlock powerful tools to streamline your work",
+    "we-offer": "We offer:",
+    "features": {
+      "contractor": {
+        "project-management": {
+          "title": "Project Management",
+          "content": "Centralize team collaboration"
+        },
+        "change-management": {
+          "title": "Change Management",
+          "content": "Streamline change requests"
+        },
+        "schedule": {
+          "title": "Schedule",
+          "content": "Meeting and tasks"
+        },
+        "cloud-storage":{
+          "title": "Cloud Storage",
+          "content": "Organize files safely"
+        }
+      },
+      "client": {
+        "request-changes": {
+          "title": "Request Changes",
+          "content": "Directly to your contractor"
+        },
+        "supervision": {
+          "title": "Supervision",
+          "content": "Project's progression"
+        },
+        "verified-partners": {
+          "title": "Verified Partners",
+          "content": "Trust your contractor"
+        }
+      }
+    }
+  },
+  "plans": {
+    "title": "Choose your plan",
+    "content": "Find the perfect plan for you and your organization",
+    "independent": {
+      "title": "Independent",
+      "price": "$14.99/Month",
+      "content": "1 active project, 10 organization members, 5GB storage"
+    },
+    "small-business": {
+      "title": "Small Business",
+      "price": "$24.99/Month",
+      "content": "3 active projects, 30 organization members, 25GB storage"
+    },
+    "learn-more": "Learn More",
+    "limitations": "All plans include limitations on users within the organization, storage capacity, and number of projects."
+  },
+  "about-the-product": {
+    "title": "About the product",
+    "content": "Explore the video below for a quick tour of the product’s main features and how they work.\n\n"
+  },
+  "testimonials": {
+    "what-people-say": "What do people say about our product?\n",
+    "first": {
+      "content": "ProP GMS gave me confidence during every step of my home construction. I could see check timelines and communicate efficiently.",
+      "name": "Lucia Fernandez"
+    },
+    "second": {
+      "content": "From day one, ProP GMS made it easy to understand my assigned projects and tasks. It respects the hierarchy and roles while still allowing communication.",
+      "name": "Sofia Rios"
+    },
+    "third": {
+      "content": "I’ve worked with contractors before, but ProP GMS is a whole new level. I was able to monitor progress and view important milestones.",
+      "name": "Raul Delgado"
+    }
+  },
+  "footer": {
+    "about": "about",
+    "more": {
+      "title": "More",
+      "privacy-policy": "Privacy Policy",
+      "terms-and-conditions": "Terms & Conditions"
+    },
+    "contact-us": "Contact Us",
+    "rights": "All rights reserved"
+  }
 }

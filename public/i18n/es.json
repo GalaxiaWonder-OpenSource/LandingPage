@@ -1,3 +1,140 @@
 {
-
+  "topic": {
+    "about-us": "Sobre nosotros",
+    "overviews": "Vista general",
+    "plans": "Planes",
+    "about-the-product":"Sobre el producto",
+    "testimonials": "Testimonios"
+  },
+  "clients": {
+    "contractor": "Contratista",
+    "client": "Cliente"
+  },
+  "hero-section": {
+    "slogan": "La planificación nunca fue tan clara: hazlo simple, hazlo bien",
+    "forms": {
+      "name": "Ingresa tu nombre",
+      "id": "Ingresa tu ID",
+      "phone": "Ingresa tu telefono",
+      "email": "Ingresa tu email",
+      "company": "Ingresa tu compañia",
+      "message": "Ingresa tu mensaje",
+      "submit": "Enviar"
+    }
+  },
+  "call-to-action": {
+    "promotion": {
+      "contractor": "¡Únete ahora y simplifica tu trabajo! Prueba la app gratis."
+    },
+    "action": "Registrarse"
+  },
+  "about-us": {
+    "mission": {
+      "title": "Misión",
+      "content": "Nuestra misión es optimizar la gestión de expedientes técnicos en obras civiles a través de soluciones tecnológicas que mejoren la precisión, reduzcan errores y faciliten la colaboración fluida entre contratistas y especialistas."
+    },
+    "vision": {
+      "title": "Visión",
+      "content": "Ser la plataforma más confiable para pequeñas empresas y contratistas independientes, alcanzando el 3% del mercado en Lima en tres años y liderando la digitalización de los procesos de construcción en el país."
+    },
+    "values": {
+      "title": "Valores",
+      "clarity": {
+        "title": "Transparencia",
+        "content": "Promovemos procesos transparentes y bien estructurados que permitan una planificación técnica inequívoca."
+      },
+      "efficiency": {
+        "title": "Eficiencia",
+        "content": "Optimizamos tiempo y recursos a través de herramientas tecnológicas que simplifican tareas complejas."
+      },
+      "confidence": {
+        "title": "Confianza",
+        "content": "Construimos relaciones sólidas con nuestros usuarios ofreciendo soluciones confiables que minimizan errores y mejoran la toma de decisiones."
+      }
+    }
+  },
+  "overviews": {
+    "for-who": "Para contratistas y especialistas",
+    "content": "Desbloquee herramientas poderosas para optimizar su trabajo",
+    "we-offer": "Le ofrecemos:",
+    "features": {
+      "contractor": {
+        "project-management": {
+          "title": "Gestión de proyectos",
+          "content": "Colaboración en equipo centralizada"
+        },
+        "change-management": {
+          "title": "Gestión de cambios",
+          "content": "Agilizar las solicitudes de cambio"
+        },
+        "schedule": {
+          "title": "Cronograma",
+          "content": "Reuniones y tareas"
+        },
+        "cloud-storage":{
+          "title": "Almacenamiento en la nube",
+          "content": "Organiza archivos de forma segura"
+        }
+      },
+      "client": {
+        "request-changes": {
+          "title": "Solicitar cambios",
+          "content": "Directamente a su contratista"
+        },
+        "supervision": {
+          "title": "Supervisión",
+          "content": "Progresión del proyecto."
+        },
+        "verified-partners": {
+          "title": "Socios verificados",
+          "content": "Confía en tu contratista"
+        }
+      }
+    }
+  },
+  "plans": {
+    "title": "Escoge tu plan",
+    "content": "Encuentra el plan perfecto para ti y tu organización",
+    "independent": {
+      "title": "Independiente",
+      "price": "$14.99/Mes",
+      "content": "1 proyecto activo, 10 miembros de la organización, 5GB de almacenamiento"
+    },
+    "small-business": {
+      "title": "Pequeñas empresas",
+      "price": "$24.99/Mes",
+      "content": "3 proyectos activos, 30 miembros de la organización, 25GB de almacenamiento"
+    },
+    "learn-more": "Leer más",
+    "limitations": "Todos los planes incluyen limitaciones de usuarios dentro de la organización, capacidad de almacenamiento y número de proyectos."
+  },
+  "about-the-product": {
+    "title": "Sobre el producto",
+    "content": "Explore el video a continuación para obtener un recorrido rápido de las características principales del producto y cómo funcionan."
+  },
+  "testimonials": {
+    "what-people-say": "¿Qué dice la gente sobre nuestro producto?",
+    "first": {
+      "content": "ProP GMS me dio confianza en cada etapa de la construcción de mi casa. Pude consultar los plazos y comunicarme eficientemente.",
+      "name": "Lucía Fernández"
+    },
+    "second": {
+      "content": "Desde el primer día, ProP GMS facilitó la comprensión de mis proyectos y tareas asignados. Respeta la jerarquía y los roles, a la vez que facilita la comunicación.",
+      "name": "Sofía Ríos"
+    },
+    "third": {
+      "content": "He trabajado con contratistas antes, pero ProP GMS es una experiencia completamente nueva. Pude supervisar el progreso y ver hitos importantes.",
+      "name": "Raúl Delgado"
+    }
+  },
+  "footer": {
+    "about": "Sobre",
+    "more": {
+      "title": "Más",
+      "privacy-policy": "Política de privacidad",
+      "terms-and-conditions": "Términos y condiciones"
+    },
+    "contact-us": "Contactanos",
+    "rights": "Todos los derechos reservados"
+  }
 }
