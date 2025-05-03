@@ -17,6 +17,12 @@
         "content": "Make it simple, make it right."
       }
     },
+    "client": {
+      "slogan": {
+        "title": "Don't risk your investment:",
+        "content": "Take control from start to end."
+      }
+    },
     "forms": {
       "name": "Enter your name",
       "id": "Enter your ID",

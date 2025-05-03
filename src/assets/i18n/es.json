@@ -17,6 +17,12 @@
         "content": "Hazla simple, hazla bien."
       }
     },
+    "client": {
+      "slogan": {
+        "title": "No te la juegues:",
+        "content": "Toma el control de inicio a fin."
+      }
+    },
     "forms": {
       "name": "Ingresa tu nombre",
       "id": "Ingresa tu ID",

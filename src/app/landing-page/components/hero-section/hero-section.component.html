@@ -1,6 +1,10 @@
 <section class="hero-section">
   @if (userType==UserType.CONTRACTOR) {
-    <img src="assets/images/hero-banner.webp" alt="Banner" class="hero-bg" />
+    <img src="assets/images/hero-banner-contractor.webp" alt="Banner" class="hero-bg" />
+  }
+
+  @if (userType==UserType.CLIENT) {
+    <img src="assets/images/hero-banner-client.webp" alt="Banner" class="hero-bg" />
   }
 
   <div class="hero-overlay">
@@ -12,6 +16,13 @@
           <h1 class="hero-title">
             {{'hero-section.contractor.slogan.title' | translate}}<br />
             <strong>{{'hero-section.contractor.slogan.content' | translate}}</strong>
+          </h1>
+        }
+
+        @if (userType==UserType.CLIENT) {
+          <h1 class="hero-title">
+            {{'hero-section.client.slogan.title' | translate}}<br />
+            <strong>{{'hero-section.client.slogan.content' | translate}}</strong>
           </h1>
         }
 
