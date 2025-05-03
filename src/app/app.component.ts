@@ -13,6 +13,7 @@ import {CallToActionComponent} from './landing-page/components/call-to-action/ca
 import {HeroSectionComponent} from './landing-page/components/hero-section/hero-section.component';
 import {AboutUsComponent} from './landing-page/components/about-us/about-us.component';
 import {PlansComponent} from './landing-page/components/plans/plans.component';
+import {AboutTheProductComponent} from './landing-page/components/about-the-product/about-the-product.component';
 
 @Component({
   selector: 'app-root',
@@ -24,7 +25,8 @@ import {PlansComponent} from './landing-page/components/plans/plans.component';
     CallToActionComponent,
     HeroSectionComponent,
     AboutUsComponent,
-    PlansComponent
+    PlansComponent,
+    AboutTheProductComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
