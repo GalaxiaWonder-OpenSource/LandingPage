@@ -4,7 +4,7 @@ import {TranslateService, TranslatePipe} from '@ngx-translate/core';
 import { MatToolbar } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 
-import {ToolbarContentComponent} from './public/components/header-content/toolbar-content.component';
+import {ToolbarContentComponent} from './landing-page/components/header-content/toolbar-content.component';
 import {UserSwitcherComponent} from './public/components/user-switcher/user-switcher.component';
 
 import {UserTypeService} from './public/services/user-type.service';
