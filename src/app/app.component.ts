@@ -1,26 +1,40 @@
-import {Component} from '@angular/core';
+import {Component, inject} from '@angular/core';
 import {TranslateService, TranslatePipe} from '@ngx-translate/core';
 
 import { MatToolbar } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 
 import {ToolbarContentComponent} from './public/components/header-content/toolbar-content.component';
+import {UserSwitcherComponent} from './public/components/user-switcher/user-switcher.component';
+
+import {UserTypeService} from './public/services/user-type.service';
+import {UserType} from './users/model/user-type.enum';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     TranslatePipe,
-    ToolbarContentComponent
+    ToolbarContentComponent,
+    UserSwitcherComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'LandingPage';
-  constructor(private translate: TranslateService) {
+  userType : UserType = UserType.CONTRACTOR;
+  private userTypeService = inject(UserTypeService);
+  private translate = inject(TranslateService);
+
+  constructor() {
     this.translate.addLangs(['en', 'es']);
     this.translate.setDefaultLang('en');
     this.translate.use('en');
+
+    this.userTypeService.userType$.subscribe(type => {
+      console.log('User type changed (from AppComponent):', type);
+      this.userType = type;
+    });
   }
 }
