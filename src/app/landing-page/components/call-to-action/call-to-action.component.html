@@ -3,6 +3,10 @@
     <p>{{ 'call-to-action.promotion.contractor' | translate }}</p>
   }
 
+  @if (userType == UserType.CLIENT) {
+    <p>{{ 'call-to-action.promotion.client' | translate }}</p>
+  }
+
   <a [href]="actionUrl" target="_blank">
     <button mat-raised-button color="primary" class="call-to-action-button">
       {{ 'call-to-action.action' | translate }}

@@ -24,7 +24,8 @@
   },
   "call-to-action": {
     "promotion": {
-      "contractor": "¡Únete ahora y simplifica tu trabajo! Prueba la app gratis."
+      "contractor": "¡Únete ahora y simplifica tu trabajo! Prueba la app gratis.",
+      "client": "Regístrate y toma el control total de tus proyectos de la mano de nuestros socios de confianza."
     },
     "action": "Registrarse"
   },
