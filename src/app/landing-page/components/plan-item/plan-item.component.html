@@ -15,5 +15,8 @@
     {{ type === 'independent' ? ('plans.independent.price' | translate) : ('plans.small-business.price' | translate) }}
   </p>
 
-  <button mat-raised-button color="accent">{{'plans.learn-more' | translate }}</button>
+  <a mat-raised-button class="black-button" href="https://www.google.com/" target="_blank">
+    {{ 'plans.learn-more' | translate }}
+  </a>
+
 </div>

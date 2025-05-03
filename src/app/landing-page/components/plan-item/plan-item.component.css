@@ -29,6 +29,17 @@
   margin-bottom: 1dvmax;
 }
 
+.black-button {
+  color: black !important;
+  background-color: white;
+  font-weight: bold;
+}
+
+.black-button:hover {
+  background-color: #f0f0f0; /* un leve cambio al pasar el mouse */
+}
+
+
 @media (min-width: 1751px) {
   .plan-title {
     font-size: 2dvmax;
