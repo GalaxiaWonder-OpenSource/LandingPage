@@ -19,6 +19,43 @@
   z-index: -1;
 }
 
+.toggle-group {
+  display: inline-flex;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0.25rem;
+  margin: 1rem auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  width: fit-content;
+}
+
+.toggle-group .mat-button-toggle {
+  border-radius: 2rem !important;
+  padding: 0 1rem;
+  text-align: center;
+  background-color: white !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.toggle-group .mat-button-toggle-button {
+  width: auto !important; /* ← el botón se ajusta al texto */
+  min-width: 100px; /* opcional: aseguras que no sea demasiado chico */
+  background-color: white !important;
+
+}
+
+.toggle-group .mat-button-toggle-checked {
+  background-color: black !important;
+  color: white !important;
+}
+
+.toggle-group .mat-button-toggle:not(.mat-button-toggle-checked):hover {
+  background-color: rgba(255, 255, 255, 0.1); /* sutil efecto al pasar el mouse */
+}
+
 
 .plans-header h2 {
   font-size: 2.5dvmax;
@@ -30,10 +67,6 @@
   font-weight: lighter;
 }
 
-
-.toggle-group {
-  margin: 1dvmax auto;
-}
 
 .desktop-only {
   display: flex;
@@ -51,7 +84,8 @@
   }
 
   .mobile-only {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 }
 

@@ -8,8 +8,8 @@
 
   <!-- Toggle solo visible en móvil -->
   <mat-button-toggle-group class="mobile-only toggle-group" [(ngModel)]="selectedPlan">
-    <mat-button-toggle value="independent">Independent</mat-button-toggle>
-    <mat-button-toggle value="business">Small Business</mat-button-toggle>
+    <mat-button-toggle value="independent">{{'plans.independent.title' | translate}}</mat-button-toggle>
+    <mat-button-toggle value="business">{{'plans.small-business.title' | translate}}</mat-button-toggle>
   </mat-button-toggle-group>
 
   <!-- Desktop view: ambos planes -->
