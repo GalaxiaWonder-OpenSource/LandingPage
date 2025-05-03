@@ -1,0 +1,30 @@
+<mat-toolbar color="primary" class="toolbar-custom on-top" style="background-color: #22396B">
+
+  <!-- Brand -->
+  <img src="assets/images/icons/logo.svg" alt="Logo" class="app-logo" />
+
+  <nav class="nav-buttons desktop-only">
+    <a href="#" class="nav-link">{{'topic.about-us' | translate }}</a>
+    <a href="#" class="nav-link">{{'topic.overviews' | translate }}</a>
+    <a href="#" class="nav-link">{{'topic.about-the-product' | translate }}</a>
+    <a href="#" class="nav-link">{{'topic.testimonials' | translate }}</a>
+  </nav>
+
+  <span class="spacer"></span>
+
+  <app-language-switcher></app-language-switcher>
+
+  <button mat-icon-button class="mobile-only" (click)="menuOpen = !menuOpen">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+</mat-toolbar>
+
+@if (menuOpen) {
+  <nav class="mobile-menu mobile-only">
+    <a href="#" class="nav-link">{{'topic.about-us' | translate }}</a>
+    <a href="#" class="nav-link">{{'topic.overviews' | translate }}</a>
+    <a href="#" class="nav-link">{{'topic.about-the-product' | translate }}</a>
+    <a href="#" class="nav-link">{{'topic.testimonials' | translate }}</a>
+  </nav>
+}
