@@ -11,7 +11,12 @@
     "client": "Client"
   },
   "hero-section": {
-    "slogan": "Planning was never this crystal clear: make it simple, make it right",
+    "contractor": {
+      "slogan": {
+        "title": "Planning was never this crystal clear:",
+        "content": "Make it simple, make it right."
+      }
+    },
     "forms": {
       "name": "Enter your name",
       "id": "Enter your ID",

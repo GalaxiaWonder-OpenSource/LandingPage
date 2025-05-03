@@ -11,7 +11,12 @@
     "client": "Cliente"
   },
   "hero-section": {
-    "slogan": "La planificación nunca fue tan clara: hazlo simple, hazlo bien",
+    "contractor": {
+      "slogan": {
+        "title": "La planificación nunca fue tan clara:",
+        "content": "Hazla simple, hazla bien."
+      }
+    },
     "forms": {
       "name": "Ingresa tu nombre",
       "id": "Ingresa tu ID",

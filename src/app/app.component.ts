@@ -10,6 +10,7 @@ import {UserSwitcherComponent} from './public/components/user-switcher/user-swit
 import {UserTypeService} from './public/services/user-type.service';
 import {UserType} from './users/model/user-type.enum';
 import {CallToActionComponent} from './landing-page/components/call-to-action/call-to-action.component';
+import {HeroSectionComponent} from './landing-page/components/hero-section/hero-section.component';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +19,8 @@ import {CallToActionComponent} from './landing-page/components/call-to-action/ca
     TranslatePipe,
     ToolbarContentComponent,
     UserSwitcherComponent,
-    CallToActionComponent
+    CallToActionComponent,
+    HeroSectionComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
