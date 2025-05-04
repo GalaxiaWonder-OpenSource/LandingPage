@@ -10,6 +10,7 @@ import {PlansComponent} from './landing-page/components/plans/plans.component';
 import {AboutTheProductComponent} from './landing-page/components/about-the-product/about-the-product.component';
 import {OverviewComponent} from './landing-page/components/overview/overview.component';
 import {TestimonialsComponent} from './landing-page/components/testimonials/testimonials.component';
+import {FooterContentComponent} from './landing-page/components/footer-content/footer-content.component';
 
 @Component({
   selector: 'app-root',
@@ -22,6 +23,7 @@ import {TestimonialsComponent} from './landing-page/components/testimonials/test
     PlansComponent,
     AboutTheProductComponent,
     OverviewComponent,
+    FooterContentComponent,
     TestimonialsComponent
   ],
   templateUrl: './app.component.html',
