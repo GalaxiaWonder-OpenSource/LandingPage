@@ -1,0 +1,13 @@
+<mat-grid-list [cols]="cards.length">
+  @for (card of cards; track card) {
+    <mat-grid-tile>
+      <mat-card class="overview-card">
+        <mat-card-content class="overview-card-content">
+          <mat-icon>{{ card.icon }}</mat-icon>
+          <h3 class="overview-title">{{ card.title | translate }}</h3>
+          <p class="overview-text">{{ card.content | translate }}</p>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  }
+</mat-grid-list>

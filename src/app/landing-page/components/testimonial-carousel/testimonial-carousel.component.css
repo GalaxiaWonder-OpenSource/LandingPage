@@ -1,0 +1,75 @@
+.carousel-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center;
+  gap: 1rem;
+  padding: 2dvmax;
+}
+
+mat-card.testimonial-card {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 1.5dvmax;
+  background-color: #fbbc04;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+mat-card-content.testimonial-card {
+  position: relative;
+  padding: 2dvmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+  min-height: 250px;
+}
+
+/* Controles del carrusel */
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+}
+
+.carousel-index {
+  font-weight: 600;
+}
+
+/* Icono de comillas */
+.quote-icon {
+  font-size: 8dvmax;
+  font-weight: bold;
+  position: absolute;
+  top: 1dvmax;
+  left: 1dvmax;
+  color: black;
+}
+
+/* Imagen circular */
+.profile-img {
+  width: 8dvmax;
+  height: 7dvmax;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 1dvmax;
+  right: 1dvmax;
+  box-shadow: 0 0 0 2px white;
+}
+
+/* Texto */
+.testimonial-quote {
+  margin-top: 7dvmax;
+  font-size: 2dvmax;
+  line-height: 1.4;
+  margin-bottom: 1dvmax;
+}
+
+.testimonial-name {
+  font-weight: 600;
+  font-size: 0.95dvmax;
+  text-align: left;
+}

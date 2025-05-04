@@ -1,0 +1,190 @@
+{
+  "topic": {
+    "about-us": "Sobre nosotros",
+    "overviews": "Vista general",
+    "plans": "Planes",
+    "about-the-product":"Sobre el producto",
+    "testimonials": "Testimonios"
+  },
+  "clients": {
+    "contractor": "Contratista",
+    "client": "Cliente"
+  },
+  "hero-section": {
+    "contractor": {
+      "slogan": {
+        "title": "La planificación nunca fue tan clara:",
+        "content": "Hazla simple, hazla bien."
+      }
+    },
+    "client": {
+      "slogan": {
+        "title": "No te la juegues:",
+        "content": "Toma el control de inicio a fin."
+      }
+    },
+    "forms": {
+      "name": "Ingresa tu nombre",
+      "id": "Ingresa tu ID",
+      "phone": "Ingresa tu telefono",
+      "email": "Ingresa tu email",
+      "company": "Ingresa tu compañia",
+      "message": "Ingresa tu mensaje",
+      "submit": "Enviar"
+    }
+  },
+  "call-to-action": {
+    "promotion": {
+      "contractor": "¡Únete ahora y simplifica tu trabajo! Prueba la app gratis.",
+      "client": "Regístrate y toma el control total de tus proyectos de la mano de nuestros socios de confianza."
+    },
+    "action": "Registrarse"
+  },
+  "about-us": {
+    "mission": {
+      "title": "Misión",
+      "content": "Nuestra misión es optimizar la gestión de expedientes técnicos en obras civiles a través de soluciones tecnológicas que mejoren la precisión, reduzcan errores y faciliten la colaboración fluida entre contratistas y especialistas."
+    },
+    "vision": {
+      "title": "Visión",
+      "content": "Ser la plataforma más confiable para pequeñas empresas y contratistas independientes, alcanzando el 3% del mercado en Lima en tres años y liderando la digitalización de los procesos de construcción en el país."
+    },
+    "values": {
+      "title": "Valores",
+      "clarity": {
+        "title": "Transparencia",
+        "content": "Promovemos procesos transparentes y bien estructurados que permitan una planificación técnica inequívoca."
+      },
+      "efficiency": {
+        "title": "Eficiencia",
+        "content": "Optimizamos tiempo y recursos a través de herramientas tecnológicas que simplifican tareas complejas."
+      },
+      "confidence": {
+        "title": "Confianza",
+        "content": "Construimos relaciones sólidas con nuestros usuarios ofreciendo soluciones confiables que minimizan errores y mejoran la toma de decisiones."
+      }
+    }
+  },
+  "overviews": {
+    "contractor": {
+      "for-who": "Para contratistas y especialistas",
+      "content": "Desbloquea herramientas poderosas para optimizar tu trabajo",
+      "features": {
+        "project-management": {
+          "title": "Gestión de proyectos",
+          "content": "Centraliza la colaboración del equipo"
+        },
+        "change-management": {
+          "title": "Gestión de cambios",
+          "content": "Agiliza las solicitudes de modificación"
+        },
+        "schedule": {
+          "title": "Calendario",
+          "content": "Reuniones y tareas organizadas"
+        },
+        "cloud-storage": {
+          "title": "Almacenamiento en la nube",
+          "content": "Organiza tus archivos de forma segura"
+        }
+      }
+    },
+    "client": {
+      "for-who": "Para clientes y supervisores",
+      "content": "Accede a herramientas claras para controlar tu proyecto",
+      "features": {
+        "request-changes": {
+          "title": "Solicitar cambios",
+          "content": "Comunícalos directamente a tu contratista"
+        },
+        "supervision": {
+          "title": "Supervisión",
+          "content": "Sigue el avance de la obra"
+        },
+        "verified-partners": {
+          "title": "Contratistas verificados",
+          "content": "Confía en nuestros socios certificados"
+        }
+      }
+    },
+    "we-offer": "Te ofrecemos:"
+  },
+  "plans": {
+    "title": "Escoge tu plan",
+    "content": "Encuentra el plan perfecto para ti y tu organización",
+    "independent": {
+      "title": "Independiente",
+      "price": "$14.99/Mes",
+      "content": "1 proyecto activo, 10 miembros de la organización, 5GB de almacenamiento"
+    },
+    "small-business": {
+      "title": "Pequeñas empresas",
+      "price": "$24.99/Mes",
+      "content": "3 proyectos activos, 30 miembros de la organización, 25GB de almacenamiento"
+    },
+    "learn-more": "Leer más",
+    "limitations": "Todos los planes incluyen limitaciones de usuarios dentro de la organización, capacidad de almacenamiento y número de proyectos."
+  },
+  "about-the-product": {
+    "title": "Sobre el producto",
+    "content": "Explore el video a continuación para obtener un recorrido rápido de las características principales del producto y cómo funcionan."
+  },
+  "testimonials": {
+    "what-people-say": "¿Qué dice la gente sobre nuestro producto?",
+    "first": {
+      "content": "ProP GMS me dio confianza en cada etapa de la construcción de mi casa. Pude consultar los plazos y comunicarme eficientemente.",
+      "name": "Lucía Fernández"
+    },
+    "second": {
+      "content": "Desde el primer día, ProP GMS facilitó la comprensión de mis proyectos y tareas asignados. Respeta la jerarquía y los roles, a la vez que facilita la comunicación.",
+      "name": "Sofía Ríos"
+    },
+    "third": {
+      "content": "He trabajado con contratistas antes, pero ProP GMS es una experiencia completamente nueva. Pude supervisar el progreso y ver hitos importantes.",
+      "name": "Raúl Delgado"
+    }
+  },
+  "footer": {
+    "learn-about": {
+      "title": "Conocer más",
+      "privacy-policy": "Política de privacidad",
+      "terms-and-conditions": "Términos y condiciones"
+    },
+    "contact-us": "Contáctanos",
+    "rights": "Todos los derechos reservados",
+    "terms-and-conditions": {
+      "title": "Términos y Condiciones",
+      "introduction": {
+        "title": "Introducción",
+        "content": "Este documento establece los términos y condiciones de uso de ProP GMS, desarrollada por el equipo Galaxia Wonder. Al acceder y utilizar esta plataforma, usted acepta estar sujeto a estos términos."
+      },
+      "use-of-the-service": {
+        "title": "Uso del Servicio",
+        "content": "El usuario se compromete a hacer un uso responsable y ético de la plataforma, respetando las funcionalidades ofrecidas y evitando usos indebidos."
+      },
+      "user-responsibility": {
+        "title": "Responsabilidad del Usuario",
+        "content": "El usuario es responsable de la veracidad de los datos que proporciona y del uso adecuado de la plataforma."
+      },
+      "responsibility-of-the-development-team": {
+        "title": "Reponsabilidad del Equipo Desarrollador",
+        "content": "El equipo se compromete a garantizar el funcionamiento correcto del software, realizar mantenimiento continuo y actuar con profesionalismo y ética en todas las etapas del desarrollo."
+      },
+      "privacy-and-data-protection": {
+        "title": "Privacidad y Protección de Datos",
+        "content": "Se garantiza la confidencialidad y seguridad de los datos personales del usuario, los cuales no serán compartidos con terceros sin consentimiento. Se cumple con principios de privacidad por diseño y cumplimiento de normas vigentes."
+      },
+      "intellectual-property": {
+        "title": "Propiedad Intelectual",
+        "content": "Todos los derechos de diseño, desarrollo y contenido pertenecen al equipo desarrollador, salvo que se indique lo contrario."
+      },
+      "ethical-and-professional-principles": {
+        "title": "Principios Éticos y Profesionales",
+        "content": "Nuestro equipo se adhiere al Código de Ética Profesional de la ACM/IEEE y del Colegio de Ingenieros del Perú (CIP). Promovemos:\nTransparencia en la ingeniería de software.\nCompromiso con la calidad, equidad y accesibilidad.\nRespeto por los derechos de los usuarios y la sociedad."
+      },
+      "modifications-and-contact": {
+        "title": "Modificaciones y Contacto",
+        "content": "Nos reservamos el derecho a actualizar estos términos. Para consultas, puede contactarnos al correo:"
+      }
+    }
+  }
+}

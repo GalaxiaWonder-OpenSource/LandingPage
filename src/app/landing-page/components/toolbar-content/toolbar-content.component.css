@@ -1,0 +1,86 @@
+/* Visibilidad según tamaño */
+.desktop-only { display: flex; }
+.mobile-only  { display: none; }
+
+/* Logo */
+.app-logo {
+  height: 100%;
+  margin-inline: 2dvmax;
+}
+
+h1{
+  font-size: 5dvmax;
+  color: white;
+  margin-right: 2dvmax;
+  font-weight: bold;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.toolbar-custom {
+  display: flex;
+  align-items: center;
+  padding-inline: 1dvmax;
+}
+
+/* Navegación */
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 10dvmax;
+  padding: 0.5dvmax 1dvmax;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.nav-link {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-inline: 1dvmax;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.95dvmax;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #90caf9;
+}
+
+.spacer {
+  flex: 1;
+}
+
+/* Menú móvil */
+.mobile-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #22396B;
+  padding: 1dvmax;
+  gap: 1dvmax;
+}
+
+/* Responsive */
+@media (max-width: 907px) {
+  .desktop-only { display: none; }
+  .mobile-only  { display: inline-flex; }
+
+  .app-logo {
+    margin-inline: 0.5dvmax;
+    height: 32px;
+  }
+
+  .mobile-menu .nav-link {
+    font-size: large !important;
+    padding-block: 0.5dvmax;
+  }
+}

@@ -1,0 +1,20 @@
+<div class="carousel-wrapper">
+  <mat-card class="testimonial-card" *ngIf="currentCard">
+    <mat-card-content class="testimonial-card">
+        <span class="quote-icon">❝</span>
+        <img class="profile-img" src="../../../../assets/images/{{currentCard.photo | translate}}" alt="Photo of {{currentCard.fullname | translate}}" />
+        <p class="testimonial-quote">{{ currentCard.content | translate}}</p>
+        <p class="testimonial-name">{{ currentCard.fullname | translate}}</p>
+    </mat-card-content>
+  </mat-card>
+
+  <div class="carousel-controls">
+    <button mat-icon-button (click)="prevCard()" [disabled]="index === 0">
+      <mat-icon>chevron_left</mat-icon>
+    </button>
+    <span class="carousel-index">{{ index + 1 }} / {{ cards.length }}</span>
+    <button mat-icon-button (click)="nextCard()" [disabled]="index === cards.length - 1">
+      <mat-icon>chevron_right</mat-icon>
+    </button>
+  </div>
+</div>

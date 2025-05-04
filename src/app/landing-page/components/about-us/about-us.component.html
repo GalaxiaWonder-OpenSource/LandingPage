@@ -1,0 +1,77 @@
+<mat-grid-list cols="2" rowHeight="2:1" style="margin: 3dvmax">
+  <mat-grid-tile>
+    <section
+      aria-labelledby="about-us-title"
+      class="about-section mat-elevation-z2"
+    >
+      <header class="about-header">
+        <p class="section-label" id="about-us-title">
+          {{ 'topic.about-us' | translate }}
+        </p>
+        <h2 class="section-title">
+          {{ 'about-us.mission.title' | translate }}
+        </h2>
+      </header>
+      <p class="mission-text" style="text-align: start">
+        "{{ 'about-us.mission.content' | translate }}"-
+      </p>
+    </section>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <img src="../../../../assets/images/about-us-mission.jpg" alt="Mission Image" class="mission-image" height="408"
+         width="612"/>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <section
+      aria-labelledby="about-us-title"
+      class="about-section mat-elevation-z2">
+      <h2 class="section-title">
+        {{ 'about-us.vision.title' | translate }}
+      </h2>
+    </section>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <section
+      aria-labelledby="about-us-title"
+      class="about-section mat-elevation-z2">
+      <p class="mission-text" style="text-align: end">
+        "{{ 'about-us.vision.content' | translate }}"
+      </p>
+    </section>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<hr class="section-divider" />
+
+<mat-grid-list cols="3" rowHeight="2:1" gutterSize="24px" class="values-grid">
+
+  <mat-grid-tile>
+    <div class="value-card mat-elevation-z2">
+      <h3 class="value-title">{{ 'about-us.values.clarity.title' | translate }}</h3>
+      <p class="value-text">
+        {{ 'about-us.values.clarity.content' | translate }}
+      </p>
+    </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <div class="value-card mat-elevation-z2">
+      <h3 class="value-title">{{ 'about-us.values.efficiency.title' | translate }}</h3>
+      <p class="value-text">
+        {{ 'about-us.values.efficiency.content' | translate }}
+      </p>
+    </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <div class="value-card mat-elevation-z2">
+      <h3 class="value-title">{{ 'about-us.values.confidence.title' | translate }}</h3>
+      <p class="value-text">
+        {{ 'about-us.values.confidence.content' | translate }}
+      </p>
+    </div>
+  </mat-grid-tile>
+
+</mat-grid-list>
+
+

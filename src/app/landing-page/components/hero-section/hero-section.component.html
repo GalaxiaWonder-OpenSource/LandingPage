@@ -1,0 +1,37 @@
+<section class="hero-section">
+  @if (userType==UserType.CONTRACTOR) {
+    <img src="assets/images/hero-banner-contractor.webp" alt="Banner" class="hero-bg" />
+  }
+
+  @if (userType==UserType.CLIENT) {
+    <img src="assets/images/hero-banner-client.webp" alt="Banner" class="hero-bg" />
+  }
+
+  <div class="hero-overlay">
+    <div class="hero-inner">
+      <div class="hero-main">
+        <img src="assets/images/icons/product_logo.svg" alt="Logo" class="hero-logo" />
+
+        @if (userType==UserType.CONTRACTOR) {
+          <h1 class="hero-title">
+            {{'hero-section.contractor.slogan.title' | translate}}<br />
+            <strong>{{'hero-section.contractor.slogan.content' | translate}}</strong>
+          </h1>
+        }
+
+        @if (userType==UserType.CLIENT) {
+          <h1 class="hero-title">
+            {{'hero-section.client.slogan.title' | translate}}<br />
+            <strong>{{'hero-section.client.slogan.content' | translate}}</strong>
+          </h1>
+        }
+
+        <app-user-switcher></app-user-switcher>
+      </div>
+
+      <div class="hero-cta">
+        <app-call-to-action [userType]="userType"></app-call-to-action>
+      </div>
+    </div>
+  </div>
+</section>

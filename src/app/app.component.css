@@ -1,0 +1,70 @@
+:host {
+  display: block;
+  background-color: #22396B;
+  min-height: 100vh;
+}
+
+/* Estilos generales */
+.app-logo {
+  height: 100%;
+  margin-left: 2dvmax;
+  margin-right: 8dvmax;
+}
+
+.toolbar-custom {
+  display: flex;
+  align-items: center;
+  padding: 0 1dvmax;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15dvmax;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.5dvmax 1dvmax;
+  border-radius: 8px;
+}
+
+.nav-link {
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.95dvmax;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #90caf9;
+}
+
+.spacer {
+  flex: 1;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 907px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: inline-flex;
+  }
+
+  .app-logo {
+    margin-left: 0.5dvmax;
+    margin-right: 0.5dvmax;
+    height: 32px;
+  }
+
+  .mobile-menu .nav-link {
+    font-size: 1dvmax;
+    padding: 0.5dvmax 0;
+  }
+
+  mat-icon {
+    color: white !important;
+    opacity: 1 !important;
+  }
+}

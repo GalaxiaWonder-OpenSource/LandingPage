@@ -1,0 +1,29 @@
+<div class="plans-container" style="height: 50dvmax;">
+
+  <!-- Título -->
+  <div class="plans-header">
+    <h2>{{'plans.title' | translate}}</h2>
+    <p>{{'plans.content' | translate}}</p>
+  </div>
+
+  <!-- Toggle solo visible en móvil -->
+  <mat-button-toggle-group class="mobile-only toggle-group" [(ngModel)]="selectedPlan">
+    <mat-button-toggle value="independent">{{'plans.independent.title' | translate}}</mat-button-toggle>
+    <mat-button-toggle value="business">{{'plans.small-business.title' | translate}}</mat-button-toggle>
+  </mat-button-toggle-group>
+
+  <!-- Desktop view: ambos planes -->
+  <div class="plans-grid desktop-only">
+    <app-plan-item type="independent"></app-plan-item>
+    <app-plan-item type="business"></app-plan-item>
+  </div>
+
+  <!-- Mobile view: solo un plan -->
+  <div class="mobile-only">
+    <app-plan-item [type]="selectedPlan"></app-plan-item>
+  </div>
+
+  <div class="plans-footer">
+    <p>{{'plans.limitations' | translate }}</p>
+  </div>
+</div>

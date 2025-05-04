@@ -1,0 +1,36 @@
+.about-the-product-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 2dvmax 1dvmax;
+  background-image: url("../../../../assets/images/about-the-product-background.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0; /* importante para el overlay */
+  overflow: hidden; /* evita que el overlay se desborde */
+}
+
+.about-the-product-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.6); /* blanco con 60% de opacidad */
+  z-index: -1;
+}
+
+.about-the-product-header h2 {
+  font-size: 2.5dvmax;
+  font-weight: bold;
+  color: #41497C
+}
+
+.about-the-product-header p {
+  font-size: 2dvmax;
+  font-weight: lighter;
+  color: #41497C;
+}
+
+.about-the-product-video {
+  width: 60dvmax;
+  height: 30dvmax;
+}

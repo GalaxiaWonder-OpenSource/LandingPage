@@ -1,0 +1,9 @@
+<!-- user-switcher.component.html -->
+<mat-button-toggle-group
+  name="userType"
+  [(ngModel)]="currentType"
+  (change)="onSelectionChange(currentType)"
+>
+  <mat-button-toggle [value]="UserType.CONTRACTOR">{{ 'clients.contractor' | translate }}</mat-button-toggle>
+  <mat-button-toggle [value]="UserType.CLIENT">{{ 'clients.client' | translate }}</mat-button-toggle>
+</mat-button-toggle-group>

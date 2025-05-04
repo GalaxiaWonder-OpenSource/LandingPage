@@ -1,0 +1,47 @@
+.plan-card {
+  padding: 3dvmax;
+  border-radius: 12px;
+  max-width: 300px;
+  margin: 0 auto;
+  color: white;
+}
+
+.plan-logo {
+  width: 10dvmax;
+  margin-bottom: 1dvmax;
+}
+
+.plan-title {
+  font-size: 2.5dvmax;
+  font-weight: bold;
+  margin-bottom: 0.5dvmax;
+}
+
+.plan-description {
+  font-size: 1.5dvmax;
+  font-weight: lighter;
+  margin-bottom: 1dvmax;
+}
+
+.plan-price {
+  font-size: 1.2dvmax;
+  font-weight: 500;
+  margin-bottom: 1dvmax;
+}
+
+.black-button {
+  color: black !important;
+  background-color: white;
+  font-weight: bold;
+}
+
+.black-button:hover {
+  background-color: #f0f0f0; /* un leve cambio al pasar el mouse */
+}
+
+
+@media (min-width: 1751px) {
+  .plan-title {
+    font-size: 2dvmax;
+  }
+}

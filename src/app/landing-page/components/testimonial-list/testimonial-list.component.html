@@ -1,0 +1,12 @@
+<mat-grid-list cols="3" rowHeight="2:1" >
+  @for (card of cards; track card) {
+    <mat-grid-tile>
+      <div class="testimonial-card">
+        <span class="quote-icon">❝</span>
+        <img class="profile-img" src="../../../../assets/images/{{card.photo | translate}}" alt="Photo of {{card.fullname | translate}}" />
+        <p class="testimonial-quote">{{ card.content | translate}}</p>
+        <p class="testimonial-name">{{ card.fullname | translate}}</p>
+      </div>
+    </mat-grid-tile>
+  }
+</mat-grid-list>

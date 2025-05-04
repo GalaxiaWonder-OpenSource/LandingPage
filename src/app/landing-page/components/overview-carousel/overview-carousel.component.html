@@ -1,0 +1,19 @@
+<div class="carousel-wrapper">
+  <mat-card class="overview-card" *ngIf="currentCard">
+    <mat-card-content class="overview-card-content">
+      <mat-icon class="overview-icon">{{ currentCard.icon }}</mat-icon>
+      <h3 class="overview-title">{{ currentCard.title | translate }}</h3>
+      <p class="overview-text">{{ currentCard.content | translate }}</p>
+    </mat-card-content>
+  </mat-card>
+
+  <div class="carousel-controls">
+    <button mat-icon-button (click)="prevCard()" [disabled]="index === 0">
+      <mat-icon>chevron_left</mat-icon>
+    </button>
+    <span class="carousel-index">{{ index + 1 }} / {{ cards.length }}</span>
+    <button mat-icon-button (click)="nextCard()" [disabled]="index === cards.length - 1">
+      <mat-icon>chevron_right</mat-icon>
+    </button>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<section class="overview-section">
+  @if (userType == UserType.CONTRACTOR) {
+    <div class="overview-intro">
+      <p class="overview-subtitle">{{'overviews.contractor.for-who' | translate}}</p>
+      <h2 class="overview-title">{{'overviews.contractor.content' | translate}}</h2>
+      <p class="overview-label">{{'overviews.we-offer' | translate}}</p>
+    </div>
+  }
+  @if (userType == UserType.CLIENT) {
+    <div class="overview-intro">
+      <p class="overview-subtitle">{{ 'overviews.client.for-who' | translate }}</p>
+      <h2 class="overview-title">{{ 'overviews.client.content' | translate }}</h2>
+      <p class="overview-label">{{ 'overviews.we-offer' | translate }}</p>
+    </div>
+  }
+
+  <div class="desktop-only">
+    <app-user-switcher></app-user-switcher>
+    <app-overview-list [userType]="userType"></app-overview-list>
+  </div>
+
+
+  <div class="mobile-only">
+    <app-user-switcher></app-user-switcher>
+    <app-overview-carousel [userType]="userType"></app-overview-carousel>
+  </div>
+
+</section>
