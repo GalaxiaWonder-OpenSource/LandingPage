@@ -8,6 +8,10 @@
   margin-inline: 2dvmax 8dvmax;
 }
 
+.nav-link {
+  cursor: pointer;
+}
+
 .toolbar-custom {
   display: flex;
   align-items: center;

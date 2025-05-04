@@ -1,8 +1,29 @@
 <app-toolbar-content></app-toolbar-content>
-<app-hero-section [userType]="userType"></app-hero-section>
-<app-about-us></app-about-us>
-<app-overview [userType]="userType"></app-overview>
-<app-plans></app-plans>
-<app-about-the-product></app-about-the-product>
-<app-testimonials></app-testimonials>
-<app-footer-content></app-footer-content>
+
+<section id="hero">
+  <app-hero-section [userType]="userType"></app-hero-section>
+</section>
+
+<section id="about-us">
+  <app-about-us></app-about-us>
+</section>
+
+<section id="overview">
+  <app-overview [userType]="userType"></app-overview>
+</section>
+
+<section id="plans">
+  <app-plans></app-plans>
+</section>
+
+<section id="product">
+  <app-about-the-product></app-about-the-product>
+</section>
+
+<section id="testimonials">
+  <app-testimonials></app-testimonials>
+</section>
+
+<section id="footer">
+  <app-footer-content></app-footer-content>
+</section>

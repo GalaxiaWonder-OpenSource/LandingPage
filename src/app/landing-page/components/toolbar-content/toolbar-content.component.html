@@ -4,11 +4,13 @@
   <img src="../../../../assets/images/icons/logo.svg" alt="Logo" class="app-logo" />
 
   <nav class="nav-buttons desktop-only">
-    <a href="#" class="nav-link">{{'topic.about-us' | translate }}</a>
-    <a href="#" class="nav-link">{{'topic.overviews' | translate }}</a>
-    <a href="#" class="nav-link">{{'topic.about-the-product' | translate }}</a>
-    <a href="#" class="nav-link">{{'topic.testimonials' | translate }}</a>
+    <a (click)="scrollTo('about-us')" class="nav-link">{{ 'topic.about-us' | translate }}</a>
+    <a (click)="scrollTo('overview')" class="nav-link">{{ 'topic.overviews' | translate }}</a>
+    <a (click)="scrollTo('product')" class="nav-link">{{ 'topic.about-the-product' | translate }}</a>
+    <a (click)="scrollTo('testimonials')" class="nav-link">{{ 'topic.testimonials' | translate }}</a>
   </nav>
+
+
 
   <span class="spacer"></span>
 
@@ -21,10 +23,10 @@
 </mat-toolbar>
 
 @if (menuOpen) {
-  <nav class="mobile-menu mobile-only">
-    <a href="#" class="nav-link">{{'topic.about-us' | translate }}</a>
-    <a href="#" class="nav-link">{{'topic.overviews' | translate }}</a>
-    <a href="#" class="nav-link">{{'topic.about-the-product' | translate }}</a>
-    <a href="#" class="nav-link">{{'topic.testimonials' | translate }}</a>
+  <nav class="nav-buttons mobile-menu mobile-only">
+    <a (click)="scrollTo('about-us')" class="nav-link">{{ 'topic.about-us' | translate }}</a>
+    <a (click)="scrollTo('overview')" class="nav-link">{{ 'topic.overviews' | translate }}</a>
+    <a (click)="scrollTo('product')" class="nav-link">{{ 'topic.about-the-product' | translate }}</a>
+    <a (click)="scrollTo('testimonials')" class="nav-link">{{ 'topic.testimonials' | translate }}</a>
   </nav>
 }
