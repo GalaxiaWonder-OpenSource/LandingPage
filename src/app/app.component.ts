@@ -9,6 +9,7 @@ import {AboutUsComponent} from './landing-page/components/about-us/about-us.comp
 import {PlansComponent} from './landing-page/components/plans/plans.component';
 import {AboutTheProductComponent} from './landing-page/components/about-the-product/about-the-product.component';
 import {OverviewComponent} from './landing-page/components/overview/overview.component';
+import {TestimonialsComponent} from './landing-page/components/testimonials/testimonials.component';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,8 @@ import {OverviewComponent} from './landing-page/components/overview/overview.com
     AboutUsComponent,
     PlansComponent,
     AboutTheProductComponent,
-    OverviewComponent
+    OverviewComponent,
+    TestimonialsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
