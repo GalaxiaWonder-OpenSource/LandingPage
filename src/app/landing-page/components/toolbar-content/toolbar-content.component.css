@@ -5,7 +5,14 @@
 /* Logo */
 .app-logo {
   height: 100%;
-  margin-inline: 2dvmax 8dvmax;
+  margin-inline: 2dvmax;
+}
+
+h1{
+  font-size: 5dvmax;
+  color: white;
+  margin-right: 2dvmax;
+  font-weight: bold;
 }
 
 .nav-link {
@@ -24,7 +31,7 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  gap: 15dvmax;
+  gap: 10dvmax;
   padding: 0.5dvmax 1dvmax;
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.05);
