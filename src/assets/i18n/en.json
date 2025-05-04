@@ -144,9 +144,8 @@
     }
   },
   "footer": {
-    "about": "about",
-    "more": {
-      "title": "More",
+    "learn-about": {
+      "title": "Learn about",
       "privacy-policy": "Privacy Policy",
       "terms-and-conditions": "Terms & Conditions"
     },

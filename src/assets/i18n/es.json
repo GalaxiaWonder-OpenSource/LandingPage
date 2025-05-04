@@ -144,13 +144,12 @@
     }
   },
   "footer": {
-    "about": "Sobre",
-    "more": {
-      "title": "Más",
+    "learn-about": {
+      "title": "Conocer más",
       "privacy-policy": "Política de privacidad",
       "terms-and-conditions": "Términos y condiciones"
     },
-    "contact-us": "Contactanos",
+    "contact-us": "Contáctanos",
     "rights": "Todos los derechos reservados"
   }
 }
