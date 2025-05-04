@@ -1,0 +1,95 @@
+/* plans.component.css */
+.plans-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 2dvmax 1dvmax;
+  background-image: url("../../../../assets/images/plans-background.webp");
+  background-size: cover;
+  background-position: center;
+  z-index: 0; /* importante para el overlay */
+  overflow: hidden; /* evita que el overlay se desborde */
+}
+
+.plans-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* ← la capa oscura */
+  z-index: -1;
+}
+
+.toggle-group {
+  display: inline-flex;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0.25rem;
+  margin: 1rem auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  width: fit-content;
+}
+
+.toggle-group .mat-button-toggle {
+  border-radius: 2rem !important;
+  padding: 0 1rem;
+  text-align: center;
+  background-color: white !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.toggle-group .mat-button-toggle-button {
+  width: auto !important; /* ← el botón se ajusta al texto */
+  min-width: 100px; /* opcional: aseguras que no sea demasiado chico */
+  background-color: white !important;
+
+}
+
+.toggle-group .mat-button-toggle-checked {
+  background-color: black !important;
+  color: white !important;
+}
+
+.toggle-group .mat-button-toggle:not(.mat-button-toggle-checked):hover {
+  background-color: rgba(255, 255, 255, 0.1); /* sutil efecto al pasar el mouse */
+}
+
+
+.plans-header h2 {
+  font-size: 2.5dvmax;
+  font-weight: bold;
+}
+
+.plans-header p {
+  font-size: 2dvmax;
+  font-weight: lighter;
+}
+
+
+.desktop-only {
+  display: flex;
+  justify-content: center;
+  gap: 2dvmax;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 907px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.plans-footer p {
+  font-size: 0.8dvmax;
+  font-weight: lighter;
+}

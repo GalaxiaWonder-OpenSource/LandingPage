@@ -1,25 +1,25 @@
 import {Component, inject} from '@angular/core';
 import {TranslateService, TranslatePipe} from '@ngx-translate/core';
 
-import { MatToolbar } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-
 import {ToolbarContentComponent} from './landing-page/components/toolbar-content/toolbar-content.component';
-import {UserSwitcherComponent} from './public/components/user-switcher/user-switcher.component';
-
 import {UserTypeService} from './public/services/user-type.service';
 import {UserType} from './users/model/user-type.enum';
-import {CallToActionComponent} from './landing-page/components/call-to-action/call-to-action.component';
 import {HeroSectionComponent} from './landing-page/components/hero-section/hero-section.component';
+import {AboutUsComponent} from './landing-page/components/about-us/about-us.component';
+import {PlansComponent} from './landing-page/components/plans/plans.component';
+import {AboutTheProductComponent} from './landing-page/components/about-the-product/about-the-product.component';
 import {OverviewComponent} from './landing-page/components/overview/overview.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
+    TranslatePipe,
     ToolbarContentComponent,
     HeroSectionComponent,
+    AboutUsComponent,
+    PlansComponent,
+    AboutTheProductComponent,
     OverviewComponent
   ],
   templateUrl: './app.component.html',

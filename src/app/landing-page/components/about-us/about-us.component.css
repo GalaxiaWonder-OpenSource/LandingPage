@@ -1,0 +1,67 @@
+.about-section {
+  color: white;
+  padding: 2dvmax;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-header {
+  margin-bottom: 1dvmax;
+}
+
+.section-label {
+  text-transform: uppercase;
+  font-size: 0.875dvmax;
+  opacity: 0.8;
+  margin-bottom: 0.25dvmax;
+}
+
+.section-title {
+  width: 100%;
+  font-size: 3dvmax;
+  font-weight: 700;
+  margin: 0;
+}
+
+.mission-text {
+  font-size: 1.3dvmax;
+  line-height: 1.6;
+}
+
+.section-divider {
+  border: none;
+  height: 4px;
+  background-color: white;
+  border-radius: 4px;
+  width: 90%;
+  margin: 2dvmax auto;
+}
+
+.values-grid {
+  margin-top: 3dvmax;
+  padding: 0 1dvmax;
+}
+
+.value-card {
+  color: white;
+  padding: 2dvmax;
+  border-radius: 12px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.value-title {
+  font-size: 2.5dvmax;
+  font-weight: bold;
+  margin-bottom: 1dvmax;
+}
+
+.value-text {
+  font-size: 1dvmax;
+  line-height: 1.6;
+  font-weight: lighter;
+}

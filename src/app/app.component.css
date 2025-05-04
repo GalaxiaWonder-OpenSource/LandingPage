@@ -1,3 +1,9 @@
+:host {
+  display: block;
+  background-color: #22396B;
+  min-height: 100vh;
+}
+
 /* Estilos generales */
 .app-logo {
   height: 100%;
