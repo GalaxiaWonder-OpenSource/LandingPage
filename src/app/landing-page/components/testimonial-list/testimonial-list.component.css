@@ -1,0 +1,55 @@
+mat-grid-list {
+  margin: 2dvmax;
+  gap: 2dvmax;
+}
+
+/* Cada tarjeta */
+.testimonial-card {
+  background-color: #fbbc04; /* amarillo */
+  border-radius: 1.5dvmax;
+  padding: 1.5dvmax;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: black;
+  width: 75%;
+  height: auto;
+}
+
+/* Icono de comillas */
+.quote-icon {
+  font-size: 6dvmax;
+  font-weight: bold;
+  position: absolute;
+  top: 1dvmax;
+  left: 1dvmax;
+  color: black;
+}
+
+/* Imagen circular */
+.profile-img {
+  width: 4dvmax;
+  height: 4dvmax;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 1dvmax;
+  right: 1dvmax;
+  box-shadow: 0 0 0 2px white;
+}
+
+/* Texto */
+.testimonial-quote {
+  margin-top: 4dvmax;
+  font-size: 1dvmax;
+  line-height: 1.4;
+  margin-bottom: 1dvmax;
+}
+
+.testimonial-name {
+  font-weight: 600;
+  font-size: 0.95dvmax;
+  text-align: left;
+}
