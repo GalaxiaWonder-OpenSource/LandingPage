@@ -1,9 +1,11 @@
 <div class="carousel-wrapper">
-  <div class="overview-card" *ngIf="currentCard">
-    <mat-icon class="overview-icon">{{ currentCard.icon }}</mat-icon>
-    <h3>{{ currentCard.title | translate }}</h3>
-    <p>{{ currentCard.content | translate }}</p>
-  </div>
+  <mat-card class="overview-matcard" *ngIf="currentCard">
+    <mat-card-content class="overview-card-content">
+      <mat-icon class="overview-icon">{{ currentCard.icon }}</mat-icon>
+      <h3 class="overview-title">{{ currentCard.title | translate }}</h3>
+      <p class="overview-text">{{ currentCard.content | translate }}</p>
+    </mat-card-content>
+  </mat-card>
 
   <div class="carousel-controls">
     <button mat-icon-button (click)="prevCard()" [disabled]="index === 0">

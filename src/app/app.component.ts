@@ -18,10 +18,7 @@ import {OverviewComponent} from './landing-page/components/overview/overview.com
   selector: 'app-root',
   standalone: true,
   imports: [
-    TranslatePipe,
     ToolbarContentComponent,
-    UserSwitcherComponent,
-    CallToActionComponent,
     HeroSectionComponent,
     OverviewComponent
   ],
