@@ -4,6 +4,7 @@ import {OverviewListComponent} from "../overview-list/overview-list.component";
 import {TranslatePipe} from "@ngx-translate/core";
 import {UserSwitcherComponent} from "../../../public/components/user-switcher/user-switcher.component";
 import {TestimonialListComponent} from '../testimonial-list/testimonial-list.component';
+import {TestimonialCarouselComponent} from '../testimonial-carousel/testimonial-carousel.component';
 
 @Component({
   selector: 'app-testimonials',
@@ -12,7 +13,8 @@ import {TestimonialListComponent} from '../testimonial-list/testimonial-list.com
     OverviewListComponent,
     TranslatePipe,
     UserSwitcherComponent,
-    TestimonialListComponent
+    TestimonialListComponent,
+    TestimonialCarouselComponent
   ],
   templateUrl: './testimonials.component.html',
   styleUrl: './testimonials.component.css'
