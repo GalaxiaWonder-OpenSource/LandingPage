@@ -15,13 +15,14 @@
   }
 
   <div class="desktop-only">
+    <app-user-switcher></app-user-switcher>
     <app-overview-list [userType]="userType"></app-overview-list>
   </div>
 
 
   <div class="mobile-only">
-    <app-overview-carousel [userType]="userType"></app-overview-carousel>
     <app-user-switcher></app-user-switcher>
+    <app-overview-carousel [userType]="userType"></app-overview-carousel>
   </div>
 
 </section>
