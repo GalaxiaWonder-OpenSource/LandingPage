@@ -95,3 +95,32 @@
     font-size: 1.5dvmax;
   }
 }
+
+/* Mobile tweak */
+@media (max-width: 580px) {
+  .mission-text,
+  .value-text {
+    line-height: 1.8;
+    padding: 1dvmax;
+    font-size: 1.5dvmax;
+  }
+
+  .about-section {
+    padding: 3dvmax;
+  }
+
+  .section-title {
+    font-size: 3dvmax;
+  }
+
+  .value-title {
+    font-size: 2dvmax;
+  }
+
+  .value-text {
+    font-size: 1.5dvmax;
+  }
+  .section-divider {
+    margin: 1dvmax auto;
+  }
+}
