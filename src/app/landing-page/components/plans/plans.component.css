@@ -9,6 +9,7 @@
   background-position: center;
   z-index: 0; /* importante para el overlay */
   overflow: hidden; /* evita que el overlay se desborde */
+  height: auto;
 }
 
 .plans-container::before {
@@ -86,6 +87,8 @@
   .mobile-only {
     display: flex;
     justify-content: center;
+    .plans-container {
+    }
   }
 }
 
