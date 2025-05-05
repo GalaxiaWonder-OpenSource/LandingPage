@@ -59,9 +59,39 @@
   font-weight: bold;
   margin-bottom: 1dvmax;
 }
-
 .value-text {
   font-size: 1dvmax;
   line-height: 1.6;
   font-weight: lighter;
+  word-break: normal;
+  overflow-wrap: break-word;
+  white-space: normal;
+  text-align: justify;
+}
+
+
+/* Mobile tweak */
+@media (max-width: 768px) {
+  .mission-text,
+  .value-text {
+    line-height: 1.8;
+    padding: 1dvmax;
+    font-size: 2dvmax;
+  }
+
+  .about-section {
+    padding: 4dvmax;
+  }
+
+  .section-title {
+    font-size: 5dvmax;
+  }
+
+  .value-title {
+    font-size: 4.5dvmax;
+  }
+
+  .value-text {
+    font-size: 1.5dvmax;
+  }
 }
