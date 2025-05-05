@@ -50,8 +50,8 @@ mat-card-content.testimonial-card {
 
 /* Imagen circular */
 .profile-img {
-  width: 8dvmax;
-  height: 7dvmax;
+  width: 10dvmax;
+  height: 10dvmax;
   border-radius: 50%;
   object-fit: cover;
   position: absolute;
@@ -62,8 +62,8 @@ mat-card-content.testimonial-card {
 
 /* Texto */
 .testimonial-quote {
-  margin-top: 7dvmax;
-  font-size: 2dvmax;
+  margin-top: 10dvmax;
+  font-size: 2.5dvmax;
   line-height: 1.4;
   margin-bottom: 1dvmax;
 }
