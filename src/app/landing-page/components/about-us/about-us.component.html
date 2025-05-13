@@ -1,9 +1,7 @@
-<mat-grid-list cols="2" rowHeight="2:1" style="margin: 3dvmax">
+<!-- Misión y Visión -->
+<mat-grid-list [cols]="2" [rowHeight]="missionRowHeight" gutterSize="16px" style="margin: 3dvmax">
   <mat-grid-tile>
-    <section
-      aria-labelledby="about-us-title"
-      class="about-section mat-elevation-z2"
-    >
+    <section aria-labelledby="about-us-title" class="about-section mat-elevation-z2">
       <header class="about-header">
         <p class="section-label" id="about-us-title">
           {{ 'topic.about-us' | translate }}
@@ -13,27 +11,26 @@
         </h2>
       </header>
       <p class="mission-text" style="text-align: start">
-        "{{ 'about-us.mission.content' | translate }}"-
+        "{{ 'about-us.mission.content' | translate }}"
       </p>
     </section>
   </mat-grid-tile>
+
   <mat-grid-tile>
-    <img src="../../../../assets/images/about-us-mission.jpg" alt="Mission Image" class="mission-image" height="408"
-         width="612"/>
+    <img src="../../../../assets/images/about-us-mission.jpg" alt="Mission Image"
+         class="mission-image" height="408" width="612"/>
   </mat-grid-tile>
+
   <mat-grid-tile>
-    <section
-      aria-labelledby="about-us-title"
-      class="about-section mat-elevation-z2">
+    <section aria-labelledby="about-us-title" class="about-section mat-elevation-z2">
       <h2 class="section-title">
         {{ 'about-us.vision.title' | translate }}
       </h2>
     </section>
   </mat-grid-tile>
+
   <mat-grid-tile>
-    <section
-      aria-labelledby="about-us-title"
-      class="about-section mat-elevation-z2">
+    <section aria-labelledby="about-us-title" class="about-section mat-elevation-z2">
       <p class="mission-text" style="text-align: end">
         "{{ 'about-us.vision.content' | translate }}"
       </p>
@@ -43,8 +40,8 @@
 
 <hr class="section-divider" />
 
-<mat-grid-list cols="3" rowHeight="2:1" gutterSize="24px" class="values-grid">
-
+<!-- Valores -->
+<mat-grid-list [cols]="3" [rowHeight]="valuesRowHeight" gutterSize="24px" class="values-grid">
   <mat-grid-tile>
     <div class="value-card mat-elevation-z2">
       <h3 class="value-title">{{ 'about-us.values.clarity.title' | translate }}</h3>
@@ -71,7 +68,4 @@
       </p>
     </div>
   </mat-grid-tile>
-
 </mat-grid-list>
-
-

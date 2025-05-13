@@ -60,3 +60,22 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Mobile tweak */
+@media (max-width: 470px) {
+  .hero-inner {
+    flex-direction: column;
+    gap: 2dvmax;
+  }
+
+  .hero-cta {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    transform: scale(0.9); /* o 0.8 si lo quieres más pequeño */
+  }
+
+  app-call-to-action {
+    width: 100%;
+  }
+}
