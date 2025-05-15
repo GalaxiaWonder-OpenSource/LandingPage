@@ -14,7 +14,7 @@ import {MatButton} from '@angular/material/button';
 })
 export class CallToActionComponent {
   @Input() userType!: UserType;
-  actionUrl: string = "https://ashy-sky-06855a61e.6.azurestaticapps.net/";
+  actionUrl: string = "https://delightful-mushroom-0f82ceb1e.6.azurestaticapps.net";
   UserType = UserType;
 
 }
