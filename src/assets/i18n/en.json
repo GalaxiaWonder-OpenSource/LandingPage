@@ -126,7 +126,8 @@
   },
   "about-the-product": {
     "title": "About the product",
-    "content": "Explore the video below for a quick tour of the product’s main features and how they work.\n\n"
+    "content": "Explore the video below for a quick tour of the product’s main features and how they work.\n\n",
+    "video-not-supported": "Your browser does not support the video tag."
   },
   "testimonials": {
     "what-people-say": "What do people say about our product?\n",

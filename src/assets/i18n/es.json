@@ -126,7 +126,8 @@
   },
   "about-the-product": {
     "title": "Sobre el producto",
-    "content": "Explore el video a continuación para obtener un recorrido rápido de las características principales del producto y cómo funcionan."
+    "content": "Explore el video a continuación para obtener un recorrido rápido de las características principales del producto y cómo funcionan.",
+      "video-not-supported": "Tu navegador no soporta la etiqueta de video."
   },
   "testimonials": {
     "what-people-say": "¿Qué dice la gente sobre nuestro producto?",
