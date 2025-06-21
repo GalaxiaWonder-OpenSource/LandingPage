@@ -1,0 +1,51 @@
+.about-the-team-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  z-index: 0; /* importante para el overlay */
+  overflow: hidden; /* evita que el overlay se desborde */
+  padding-bottom: 2rem;
+}
+
+.about-the-team-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.6); /* blanco con 60% de opacidad */
+  z-index: -1;
+}
+
+.about-the-team-header h2 {
+  font-size: 2.5dvmax;
+  font-weight: bold;
+  color: #41497C
+}
+
+.about-the-team-header p {
+  font-size: 2dvmax;
+  font-weight: lighter;
+  color: #41497C;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* relación 16:9 */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px; /* opcional: bordes redondeados */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* opcional: sombra sutil */
+}
+

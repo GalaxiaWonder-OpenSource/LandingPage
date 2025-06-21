@@ -11,6 +11,7 @@ import {AboutTheProductComponent} from './landing-page/components/about-the-prod
 import {OverviewComponent} from './landing-page/components/overview/overview.component';
 import {TestimonialsComponent} from './landing-page/components/testimonials/testimonials.component';
 import {FooterContentComponent} from './landing-page/components/footer-content/footer-content.component';
+import {AboutTheTeamComponent} from './landing-page/components/about-the-team/about-the-team.component';
 
 @Component({
   selector: 'app-root',
@@ -24,7 +25,8 @@ import {FooterContentComponent} from './landing-page/components/footer-content/f
     AboutTheProductComponent,
     OverviewComponent,
     FooterContentComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    AboutTheTeamComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

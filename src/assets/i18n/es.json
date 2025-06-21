@@ -129,6 +129,10 @@
     "content": "Explore el video a continuación para obtener un recorrido rápido de las características principales del producto y cómo funcionan.",
       "video-not-supported": "Tu navegador no soporta la etiqueta de video."
   },
+  "about-the-team": {
+    "title": "Sobre el equipo",
+    "content": "Explora nuestro equipo con este video"
+  },
   "testimonials": {
     "what-people-say": "¿Qué dice la gente sobre nuestro producto?",
     "first": {

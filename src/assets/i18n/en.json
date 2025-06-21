@@ -129,6 +129,10 @@
     "content": "Explore the video below for a quick tour of the product’s main features and how they work.\n\n",
     "video-not-supported": "Your browser does not support the video tag."
   },
+  "about-the-team": {
+    "title": "About the Team",
+    "content": "Explore our team with this video"
+  },
   "testimonials": {
     "what-people-say": "What do people say about our product?\n",
     "first": {
