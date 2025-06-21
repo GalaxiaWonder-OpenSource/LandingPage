@@ -13,20 +13,19 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(255, 255, 255, 0.6); /* blanco con 60% de opacidad */
   z-index: -1;
 }
 
 .about-the-team-header h2 {
   font-size: 2.5dvmax;
   font-weight: bold;
-  color: #41497C
+  color: white
 }
 
 .about-the-team-header p {
   font-size: 2dvmax;
   font-weight: lighter;
-  color: #41497C;
+  color: white;
 }
 
 .video-container {
