@@ -29,22 +29,9 @@
 }
 
 .video-container {
-  position: relative;
   width: 100%;
-  padding-top: 56.25%; /* relación 16:9 */
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-bottom: 2rem;
-  box-sizing: border-box;
+  max-width: 800px;
+  margin: 0 auto; /* Centra el contenedor */
 }
 
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 8px; /* opcional: bordes redondeados */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* opcional: sombra sutil */
-}
 
