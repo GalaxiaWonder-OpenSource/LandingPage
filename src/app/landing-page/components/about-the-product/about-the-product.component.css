@@ -2,7 +2,7 @@
   position: relative;
   text-align: center;
   color: white;
-  padding: 2dvmax 1dvmax;
+  padding: 5vh 3vw; /* Uso de unidades relativas */
   background-image: url("../../../../assets/images/about-the-product-background.jpg");
   background-size: cover;
   background-position: center;
@@ -19,27 +19,44 @@
 }
 
 .about-the-product-header h2 {
-  font-size: 2.5dvmax;
+  font-size: 3vw; /* Cambiar a unidades relativas */
   font-weight: bold;
-  color: #41497C
+  color: #41497C;
+  margin: 0;
 }
 
 .about-the-product-header p {
-  font-size: 2dvmax;
+  font-size: 1.5vw; /* Cambiar a unidades relativas */
   font-weight: lighter;
   color: #41497C;
+  margin: 0.5em 0;
 }
 
 .video-container {
   width: 100%;
-  max-width: 800px;
-  margin: 0 auto; /* Centra el contenedor */
+  max-width: 800px; /* Mantener un límite de ancho */
+  margin: 20px auto; /* Centrar el contenedor con margen superior */
 }
 
 .about-the-product-video {
   width: 100%;
-  height: auto;
+  height: 25dvmax; /* Mantiene la relación de aspecto del video */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: block; /* Elimina espacio extra debajo del video */
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+  .about-the-product-header h2 {
+    font-size: 6vw; /* Ajuste para pantallas pequeñas */
+  }
+
+  .about-the-product-header p {
+    font-size: 4.5vw; /* Ajuste para pantallas pequeñas */
+  }
+
+  .about-the-product-container {
+    padding: 10vh 5vw; /* Más espaciado para pantallas pequeñas */
+  }
 }
