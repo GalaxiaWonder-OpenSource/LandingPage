@@ -14,7 +14,7 @@ import {MatButton} from '@angular/material/button';
 })
 export class CallToActionComponent {
   @Input() userType!: UserType;
-  actionUrl: string = "https://witty-field-0d902a010.6.azurestaticapps.net/";
+  actionUrl: string = "http://20.84.51.92:4200/login";
   UserType = UserType;
 
 }

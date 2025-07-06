@@ -6,7 +6,7 @@
   background-position: center;
   z-index: 0; /* importante para el overlay */
   overflow: hidden; /* evita que el overlay se desborde */
-  padding-bottom: 2rem;
+  padding-top: 10vh; /* Uso de unidades relativas para espaciado */
 }
 
 .about-the-team-container::before {
@@ -17,21 +17,44 @@
 }
 
 .about-the-team-header h2 {
-  font-size: 2.5dvmax;
+  font-size: 3vw; /* Cambiar a unidades relativas */
   font-weight: bold;
-  color: white
+  color: white;
+  margin: 0;
 }
 
 .about-the-team-header p {
-  font-size: 2dvmax;
+  font-size: 1.5vw; /* Cambiar a unidades relativas */
   font-weight: lighter;
   color: white;
+  margin: 1em 0;
 }
 
 .video-container {
   width: 100%;
-  max-width: 800px;
-  margin: 0 auto; /* Centra el contenedor */
+  max-width: 800px; /* Mantener un límite de ancho */
+  margin: 20px auto; /* Centrar el contenedor */
 }
 
+.about-the-team-video {
+  width: 100%;
+  height: 25dvmax; /* Mantiene la relación de aspecto del video */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: block; /* Elimina espacio extra debajo del video */
+}
 
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+  .about-the-team-header h2 {
+    font-size: 8vw; /* Ajuste para pantallas pequeñas */
+  }
+
+  .about-the-team-header p {
+    font-size: 5vw; /* Ajuste para pantallas pequeñas */
+  }
+
+  .about-the-team-container {
+    padding: 12vh 8vw; /* Más espaciado para pantallas pequeñas */
+  }
+}

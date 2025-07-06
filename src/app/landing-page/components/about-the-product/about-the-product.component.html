@@ -1,5 +1,4 @@
-<div class="about-the-product-container" style="height: 50dvmax;">
-
+<div class="about-the-product-container">
   <!-- Título -->
   <div class="about-the-product-header">
     <h2>{{'about-the-product.title' | translate}}</h2>
@@ -8,11 +7,9 @@
 
   <div class="video-container">
     <iframe
-      width="560"
-      height="315"
+      class="about-the-product-video"
       [src]="videoUrl"
       title="YouTube video player"
-      frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen>
     </iframe>
